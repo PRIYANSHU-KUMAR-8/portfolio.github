@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.profile-col-1 {
+  flex-basis: 35%;
+}
+.profile-col-1 img {
+  width: 500px;
+  border-radius: 300px;
+  height: 500px;
+  position: relative;
+}
+.profile-col-2 {
+  flex-basis: 60%;
+}
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* hobbies-skills-education */
+/* .table-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after {
+  width: 50%;
+}
+.tab-contents ul li span {
+  color: blue;
+  font-size: 16px;
+}
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+} */
+
+#h3 {
+  font-size: 60px;
+  color: aliceblue;
+}
